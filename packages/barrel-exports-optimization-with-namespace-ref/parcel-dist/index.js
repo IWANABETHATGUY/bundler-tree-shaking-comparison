@@ -1,0 +1,1 @@
+(()=>{function e(e,o,n,r){Object.defineProperty(e,o,{get:n,set:r,enumerable:!0,configurable:!0})}var o={};e(o,"foo",()=>n),e(o,"bar",()=>r);let n=100,r=100;console.log(o.foo)})();
