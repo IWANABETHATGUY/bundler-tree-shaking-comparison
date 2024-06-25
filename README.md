@@ -1,5 +1,9 @@
 # Result
 
+ > [!Note]
+ > Due to the code elimination implementation, some bundlers need pass the processed code to `minifier` like `webpack`, `parcel` to apply the elimination,
+ > We consider the result successful if the target declaration/function is eliminated after being passed into the minifier.
+
 ## basic
 
 ```javascript
