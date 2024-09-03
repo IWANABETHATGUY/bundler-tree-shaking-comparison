@@ -11,8 +11,8 @@
     bar: () => bar,
     foo: () => foo
   });
-  var foo = 100;
-  var bar = 100;
+  var foo = "a_foo";
+  var bar = "a_bar";
 
   // src/index.js
   console.log(a_exports.foo);

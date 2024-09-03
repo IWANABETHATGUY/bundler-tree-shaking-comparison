@@ -2,9 +2,9 @@
 export * as amodule from './a.js'
 export * as bmodule from './b.js'
 // a.js
-export const foo = 100;
-export const bar = 100;
+export const foo = 'foo';
+export const bar = 'bar';
 
 // b.js
-export const c = 100;
+export const c = 'c';
 

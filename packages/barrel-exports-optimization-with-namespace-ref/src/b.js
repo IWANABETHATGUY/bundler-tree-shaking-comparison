@@ -1,4 +1,4 @@
 // b.js
-export const c = 100;
+export const c = 'c';
 
 
