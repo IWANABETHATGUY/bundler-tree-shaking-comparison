@@ -10,5 +10,5 @@
 	"scripts": {
 		"build": "pnpm run -r build"
 	},
-	"packageManager": "pnpm@9.12.2"
+	"packageManager": "pnpm@9.12.3"
 }
