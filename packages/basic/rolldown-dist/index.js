@@ -1,6 +1,6 @@
 
 //#region src/lib.js
-const a = 1000;
+const a = 1e3;
 
 //#endregion
 //#region src/index.js

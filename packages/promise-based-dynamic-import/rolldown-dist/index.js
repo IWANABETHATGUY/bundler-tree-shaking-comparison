@@ -1,6 +1,6 @@
 
 //#region src/index.js
-import('./lib-uO0IDCz_.js').then((module) => {
+import("./lib-nW5JSYru.js").then((module) => {
 	console.log(module.foo);
 });
 

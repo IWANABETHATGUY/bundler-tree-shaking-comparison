@@ -1,15 +1,18 @@
 
 //#region rolldown:runtime
-var __commonJSMin = (cb, mod) => () => (mod || cb((mod = {exports: {}}).exports, mod), mod.exports);
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __commonJS = (cb, mod) => function() {
+	return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
 
 //#endregion
 //#region src/lib.js
-var require_lib = __commonJSMin((exports, module) => {
+var require_lib = __commonJS({ "src/lib.js"(exports) {
 	const a = 3;
-	const b = 1000;
+	const b = 1e3;
 	exports.a = a;
 	exports.bar = b;
-});
+} });
 
 //#endregion
 //#region src/index.js
