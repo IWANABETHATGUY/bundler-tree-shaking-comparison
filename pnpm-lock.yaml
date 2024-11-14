@@ -35,13 +35,19 @@ importers:
 
   packages/basic-with-inner-ref: {}
 
+  packages/dynamic-import-await-destruct: {}
+
+  packages/dynamic-import-await-namespace: {}
+
   packages/interop-commonjs-commonjs: {}
 
   packages/interop-commonjs-esm: {}
 
   packages/interop-esm-commonjs: {}
 
-  packages/promise-based-dynamic-import: {}
+  packages/promise-then-destruct: {}
+
+  packages/promise-then-namespace: {}
 
   packages/side-effects: {}
 
