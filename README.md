@@ -215,9 +215,40 @@ export const c = 100;
 | Title    | Status  | remark |
 | -------- | ------- | ------ |
 | esbuild  | failed  |        |
+| webpack  | success  |        |
+| parcel   | success |        |
+| rolldown | success  |        |
+
+## await dynamic import destruct
+
+```js
+// index.js
+const {foo} = await import("./lib.js")
+console.log(foo)
+
+// lib.js
+export * from './a.js'
+export * from './b.js'
+// a.js
+export const foo = 100;
+export const bar = 100;
+
+// b.js
+export const c = 100;
+```
+
+**Expected**
+
+1. **b.js** should be removed
+2. `bar` in **a.js** should be eliminated
+
+**Actual**
+| Title    | Status  | remark |
+| -------- | ------- | ------ |
+| esbuild  | failed  |        |
 | webpack  | failed  |        |
 | parcel   | success |        |
-| rolldown | failed  |        |
+| rolldown | success  |        |
 
 ## Interop esm <- commonjs
 
