@@ -1,7 +1,5 @@
-(() => {
-  // src/a.js
-  var foo = 100;
+// src/a.js
+var foo = 100;
 
-  // src/index.js
-  console.log(foo);
-})();
+// src/index.js
+console.log(foo);
