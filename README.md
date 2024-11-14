@@ -152,7 +152,7 @@ export const c = 100;
 | esbuild  | failed  |        |
 | webpack  | failed  |        |
 | parcel   | success |        |
-| rolldown | failed  |        |
+| rolldown | success  |        |
 
 ## async based dynamic import
 

@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build:webpack": "webpack",
-    "build:esbuild": "esbuild src/index.js --bundle --outfile=esbuild-dist/index.js",
+    "build:esbuild": "esbuild src/index.js --bundle --format=esm --tree-shaking --tree-shaking  --outfile=esbuild-dist/index.js",
     "build:parcel": "parcel build src/index.js --dist-dir parcel-dist --no-source-maps --no-cache --no-optimize",
     "build:rolldown": "rolldown --config ./rolldown.config.mjs",
     "build": "pnpm run /build:.*/"
