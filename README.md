@@ -121,7 +121,7 @@ export const c = 100;
 | parcel   | failed  |        |
 | rolldown | success  |        |
 
-## promise based dynamic import
+## promise then namespace
 
 ```js
 // index.js
@@ -154,11 +154,45 @@ export const c = 100;
 | parcel   | success |        |
 | rolldown | success  |        |
 
-## async based dynamic import
+
+## promise then destruct
 
 ```js
 // index.js
-const m = import("./lib.js")
+import('./lib.js').then(({foo}) => {
+	console.log(foo)
+})
+
+// lib.js
+export * from './a.js'
+export * from './b.js'
+// a.js
+export const foo = 100;
+export const bar = 100;
+
+// b.js
+export const c = 100;
+```
+
+**Expected**
+
+1. **lib.js** should be removed
+2. **b.js** should be removed
+3. `bar` in **a.js** should be eliminated
+
+**Actual**
+| Title    | Status  | remark |
+| -------- | ------- | ------ |
+| esbuild  | failed  |        |
+| webpack  | failed  |        |
+| parcel   | success |        |
+| rolldown | success  |        |
+
+## await dynamic import namespace
+
+```js
+// index.js
+const m = await import("./lib.js")
 console.log(m.foo)
 
 // lib.js
