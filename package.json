@@ -5,7 +5,7 @@
 		"prettier": "^3.3.3",
 		"rolldown": "nightly",
 		"webpack": "^5.92.1",
-		"webpack-cli": "^5.1.4"
+		"webpack-cli": "^6.0.0"
 	},
 	"scripts": {
 		"build": "pnpm run -r build",
