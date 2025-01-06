@@ -11,5 +11,5 @@
 		"build": "pnpm run -r build",
     "format": "prettier --write *.md"
 	},
-	"packageManager": "pnpm@9.15.2"
+	"packageManager": "pnpm@9.15.3"
 }
