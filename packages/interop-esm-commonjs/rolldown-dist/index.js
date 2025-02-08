@@ -32,10 +32,10 @@ var require_lib = __commonJS({ "src/lib.js"(exports) {
 	exports.a = a;
 	exports.bar = b;
 } });
+var import_lib = __toESM(require_lib());
 
 //#endregion
 //#region src/index.js
-var import_lib = __toESM(require_lib());
 console.log(`lib.bar: `, import_lib.bar);
 
 //#endregion

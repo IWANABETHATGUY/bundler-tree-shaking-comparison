@@ -37,83 +37,83 @@ if (parcelRequire == null) {
 }
 
 var parcelRegister = parcelRequire.register;
-parcelRegister("8SF9g", function(module, exports) {
+parcelRegister("33tOP", function(module, exports) {
 
-$parcel$export(module.exports, "register", () => $677349188de53a95$export$6503ec6e8aabbaf, (v) => $677349188de53a95$export$6503ec6e8aabbaf = v);
-$parcel$export(module.exports, "resolve", () => $677349188de53a95$export$f7ad0328861e2f03, (v) => $677349188de53a95$export$f7ad0328861e2f03 = v);
-var $677349188de53a95$export$6503ec6e8aabbaf;
-var $677349188de53a95$export$f7ad0328861e2f03;
+$parcel$export(module.exports, "register", () => $2398c854cd49ea56$export$6503ec6e8aabbaf, (v) => $2398c854cd49ea56$export$6503ec6e8aabbaf = v);
+$parcel$export(module.exports, "resolve", () => $2398c854cd49ea56$export$f7ad0328861e2f03, (v) => $2398c854cd49ea56$export$f7ad0328861e2f03 = v);
+var $2398c854cd49ea56$export$6503ec6e8aabbaf;
+var $2398c854cd49ea56$export$f7ad0328861e2f03;
 "use strict";
-var $677349188de53a95$var$mapping = new Map();
-function $677349188de53a95$var$register(baseUrl, manifest) {
-    for(var i = 0; i < manifest.length - 1; i += 2)$677349188de53a95$var$mapping.set(manifest[i], {
+var $2398c854cd49ea56$var$mapping = new Map();
+function $2398c854cd49ea56$var$register(baseUrl, manifest) {
+    for(var i = 0; i < manifest.length - 1; i += 2)$2398c854cd49ea56$var$mapping.set(manifest[i], {
         baseUrl: baseUrl,
         path: manifest[i + 1]
     });
 }
-function $677349188de53a95$var$resolve(id) {
-    var resolved = $677349188de53a95$var$mapping.get(id);
+function $2398c854cd49ea56$var$resolve(id) {
+    var resolved = $2398c854cd49ea56$var$mapping.get(id);
     if (resolved == null) throw new Error('Could not resolve bundle with id ' + id);
     return new URL(resolved.path, resolved.baseUrl).toString();
 }
-$677349188de53a95$export$6503ec6e8aabbaf = $677349188de53a95$var$register;
-$677349188de53a95$export$f7ad0328861e2f03 = $677349188de53a95$var$resolve;
+$2398c854cd49ea56$export$6503ec6e8aabbaf = $2398c854cd49ea56$var$register;
+$2398c854cd49ea56$export$f7ad0328861e2f03 = $2398c854cd49ea56$var$resolve;
 
 });
 
-parcelRegister("71vaS", function(module, exports) {
+parcelRegister("018qO", function(module, exports) {
 
-$parcel$export(module.exports, "getBundleURL", () => $51d0ceff0548d078$export$bdfd709ae4826697, (v) => $51d0ceff0548d078$export$bdfd709ae4826697 = v);
-var $51d0ceff0548d078$export$bdfd709ae4826697;
-var $51d0ceff0548d078$export$c9e73fbda7da57b6;
-var $51d0ceff0548d078$export$5a759dc7a1cfb72a;
+$parcel$export(module.exports, "getBundleURL", () => $0036a26f50481695$export$bdfd709ae4826697, (v) => $0036a26f50481695$export$bdfd709ae4826697 = v);
+var $0036a26f50481695$export$bdfd709ae4826697;
+var $0036a26f50481695$export$c9e73fbda7da57b6;
+var $0036a26f50481695$export$5a759dc7a1cfb72a;
 "use strict";
-var $51d0ceff0548d078$var$bundleURL = {};
-function $51d0ceff0548d078$var$getBundleURLCached(id) {
-    var value = $51d0ceff0548d078$var$bundleURL[id];
+var $0036a26f50481695$var$bundleURL = {};
+function $0036a26f50481695$var$getBundleURLCached(id) {
+    var value = $0036a26f50481695$var$bundleURL[id];
     if (!value) {
-        value = $51d0ceff0548d078$var$getBundleURL();
-        $51d0ceff0548d078$var$bundleURL[id] = value;
+        value = $0036a26f50481695$var$getBundleURL();
+        $0036a26f50481695$var$bundleURL[id] = value;
     }
     return value;
 }
-function $51d0ceff0548d078$var$getBundleURL() {
+function $0036a26f50481695$var$getBundleURL() {
     try {
         throw new Error();
     } catch (err) {
         var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
         if (matches) // The first two stack frames will be this function and getBundleURLCached.
         // Use the 3rd one, which will be a runtime in the original bundle.
-        return $51d0ceff0548d078$var$getBaseURL(matches[2]);
+        return $0036a26f50481695$var$getBaseURL(matches[2]);
     }
     return '/';
 }
-function $51d0ceff0548d078$var$getBaseURL(url) {
+function $0036a26f50481695$var$getBaseURL(url) {
     return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
 }
 // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function $51d0ceff0548d078$var$getOrigin(url) {
+function $0036a26f50481695$var$getOrigin(url) {
     var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
     if (!matches) throw new Error('Origin not found');
     return matches[0];
 }
-$51d0ceff0548d078$export$bdfd709ae4826697 = $51d0ceff0548d078$var$getBundleURLCached;
-$51d0ceff0548d078$export$c9e73fbda7da57b6 = $51d0ceff0548d078$var$getBaseURL;
-$51d0ceff0548d078$export$5a759dc7a1cfb72a = $51d0ceff0548d078$var$getOrigin;
+$0036a26f50481695$export$bdfd709ae4826697 = $0036a26f50481695$var$getBundleURLCached;
+$0036a26f50481695$export$c9e73fbda7da57b6 = $0036a26f50481695$var$getBaseURL;
+$0036a26f50481695$export$5a759dc7a1cfb72a = $0036a26f50481695$var$getOrigin;
 
 });
 
-parcelRegister("gxXBM", function(module, exports) {
+parcelRegister("hBegv", function(module, exports) {
 
 
-module.exports = (parcelRequire("3y4Sl"))((parcelRequire("8SF9g")).resolve("16OoI")).then(()=>parcelRequire('hddA9'));
+module.exports = (parcelRequire("iZcSh"))((parcelRequire("33tOP")).resolve("16OoI")).then(()=>parcelRequire('hddA9'));
 
 });
-parcelRegister("3y4Sl", function(module, exports) {
+parcelRegister("iZcSh", function(module, exports) {
 "use strict";
 
-var $lUaIb = parcelRequire("lUaIb");
-module.exports = $lUaIb(function(bundle) {
+var $396Vw = parcelRequire("396Vw");
+module.exports = $396Vw(function(bundle) {
     return new Promise(function(resolve, reject) {
         // Don't insert the same script twice (e.g. if it was already in the HTML)
         var existingScripts = document.getElementsByTagName('script');
@@ -147,24 +147,24 @@ module.exports = $lUaIb(function(bundle) {
 });
 
 });
-parcelRegister("lUaIb", function(module, exports) {
+parcelRegister("396Vw", function(module, exports) {
 "use strict";
-var $ff272306d1d919dd$var$cachedBundles = {};
-var $ff272306d1d919dd$var$cachedPreloads = {};
-var $ff272306d1d919dd$var$cachedPrefetches = {};
-function $ff272306d1d919dd$var$getCache(type) {
+var $24a795e1866223cf$var$cachedBundles = {};
+var $24a795e1866223cf$var$cachedPreloads = {};
+var $24a795e1866223cf$var$cachedPrefetches = {};
+function $24a795e1866223cf$var$getCache(type) {
     switch(type){
         case 'preload':
-            return $ff272306d1d919dd$var$cachedPreloads;
+            return $24a795e1866223cf$var$cachedPreloads;
         case 'prefetch':
-            return $ff272306d1d919dd$var$cachedPrefetches;
+            return $24a795e1866223cf$var$cachedPrefetches;
         default:
-            return $ff272306d1d919dd$var$cachedBundles;
+            return $24a795e1866223cf$var$cachedBundles;
     }
 }
 module.exports = function(loader, type) {
     return function(bundle) {
-        var cache = $ff272306d1d919dd$var$getCache(type);
+        var cache = $24a795e1866223cf$var$getCache(type);
         if (cache[bundle]) return cache[bundle];
         return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
             delete cache[bundle];
@@ -177,14 +177,14 @@ module.exports = function(loader, type) {
 
 
 
-var $063b317051f7dcef$exports = {};
+var $b765b2a6297f785d$exports = {};
 
 
-(parcelRequire("8SF9g")).register((parcelRequire("71vaS")).getBundleURL('028To'), JSON.parse("[\"028To\",\"index.js\",\"16OoI\",\"promise-then-namespace.8c4ded79.js\"]"));
+(parcelRequire("33tOP")).register((parcelRequire("018qO")).getBundleURL('028To'), JSON.parse("[\"028To\",\"index.js\",\"16OoI\",\"promise-then-namespace.8c4ded79.js\"]"));
 
 // index.js
 
-(parcelRequire("gxXBM")).then((module)=>{
+(parcelRequire("hBegv")).then((module)=>{
     console.log(module.foo);
 });
 
