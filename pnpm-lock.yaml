@@ -19,13 +19,13 @@ importers:
         version: 3.5.2
       rolldown:
         specifier: nightly
-        version: 1.0.0-beta.7-commit.b7224c1
+        version: 1.0.0-beta.7-commit.25f3c61
       webpack:
         specifier: ^5.92.1
-        version: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
+        version: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
       webpack-cli:
         specifier: ^6.0.0
-        version: 6.0.1(webpack@5.99.0)
+        version: 6.0.1(webpack@5.99.2)
 
   packages/barrel-exports-optimization: {}
 
@@ -320,8 +320,8 @@ packages:
   '@napi-rs/wasm-runtime@0.2.8':
     resolution: {integrity: sha512-OBlgKdX7gin7OIq4fadsjpg+cp2ZphvAIKucHsNfTdJiqdOmOEwQd/bHi0VwNrcw5xpBJyUw6cK/QilCqy1BSg==}
 
-  '@oxc-project/types@0.61.2':
-    resolution: {integrity: sha512-rfuwJwvwn9MRthHNXlSo9Eka/u7gC0MhnWAoX3BhE1+rwPOl22nq0K0Y997Hof0tHCOuD7H3/Z8HTfCVhB4c5Q==}
+  '@oxc-project/types@0.62.0':
+    resolution: {integrity: sha512-rC3YQjrntGvg8vkHHKaiFqZFBCDU/F3BPfokssD02q5Sn4dSZGYzJVdojqYIEFECpEMEqKBxqIRmVex1+WXI5w==}
 
   '@parcel/bundler-default@2.13.3':
     resolution: {integrity: sha512-mOuWeth0bZzRv1b9Lrvydis/hAzJyePy0gwa0tix3/zyYBvw0JY+xkXVR4qKyD/blc1Ra2qOlfI2uD3ucnsdXA==}
@@ -634,63 +634,63 @@ packages:
     peerDependencies:
       '@parcel/core': ^2.13.3
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-xq0cbQA2VziEsX3oQgflU3C15FEKp8wGzW+YaPPW863y0mDNXE//9bhm8of0Ot+JN6P/Zx4e36PRqmMCrWImCg==}
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-NgwEo+jc0mb52Pzag7Uj/oE+RZtSN6nVbjdHDJh9TTqY7EzyYcj2HNJ8jZmiqTcY7+BJYDRjTpCnx7yH6ejwLQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-ieZJXvUk4g2uFtBFJdl+qaS2/D2B8BKVAM6OnDwqGL7R82b8PlKHGYQ64ar8T4/FcYfpH8DHdySPUKDeiE20CQ==}
+  '@rolldown/binding-darwin-x64@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-x+k80M92Vknsq6y2qRmkmhlYMZoeIvUOGFptboLiMzqAVTLUYs96l1t3cu9/nYzLaq+1b2yuhnZceWL3oA7/bQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-7jW0y8JNkjCnTEfFqV4sWbxVbxtJDXmXi0S42IAYV4Lrx0c+BaNHVFbk7DDjx/GVwVSV40dr9jEWQMAbk0y7yw==}
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-Gc8PN9qsbUb0SDLg8v2Eyiy0a+hnMtsb03uoSW/5bF+FEH8Btmr4bGG+5gE6xvKJ8FGPgsOpmJqHNBIbQpa9RQ==}
     cpu: [x64]
     os: [freebsd]
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-5UG5NtQEKCl8FzDo97tT3HldD5C2HZqmUbOAYe82mByPHLgB/l+JnyCwzurtbffKAzLmzeAusx49aqzNOrv3/g==}
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-SaWy1LvP9xu/NuOqDuYy+a7DYRVedIZmTGGNGSKLxP+xmzccrVB94V7V6paXvOvG9nRMmp6QONYHO/CvgnH5Gw==}
     cpu: [arm]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-wrqGKbrANKNaVTbOI4SrNeYf8SbSv0fdOEIPwL5ilfzwV6Q/9QjzDKUEJUGEZ1SnGVfLv97hsn7PgUepfwxsOw==}
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-AvF8N5bikI5ewpkh6k1Dh72+umI8oezZI5vZ8mx0d1p2E+cYxdq5R878U5wuISgbfAU4cjih2FG+35z6Pnuy/A==}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-vapDa0S6HTkCpO9K/ENBZPJfJm0N4h+0Uj3TEoTugHFWBXNBfvTzFSgkoABhW7QdgCTBRWeETdvqriC50UCHkA==}
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-qf1dW9HtYRUHH0sqERBGgoWLQ2wX+MpujL8Jho3Xt4iqRiB+oLDAn9sssJxRtOVf29G4FNMY2Iruoh/WQH7H6A==}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-UFFgwSON1+13iZ/AypSq5N70Smpx6rmJZiXwHOI540jgJEvciBy1PRKQIQemM/80qfFiK3DpoLNkApjm4sgLKg==}
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-6xgP3isXvr1INdSdP3fgsEygRc+lIgG8roXRxhgtJ62tj3e5lBfA7qiHD7nQkVJODJ2YYQBCiykK9H/7NBMVbQ==}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-e34Sj0dpsQwCyPYm9piYPssDszWEdbMWYrO/0Ljx+cCFE5TIFnZJGuYHrb0rqFqqAfxVZhpy6Jrn+hxGGmw1tg==}
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-uluF0Jez4o2h0woYXmZYRHSdJIXR++3BmCzjmrwhJV0hAiu7IDAlBxQqPn5MS4uxUAVV9LboXcudaAxP4SiOGg==}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-Y2hroVWBwinruPu1to6d4yPISHN1I1qUEcQmLnHBROFnxgU5odBDIenHgi4+c5YAZuWOiAolVm9fUdtll208/g==}
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-I6zfXSsv5McMLMJk0/Vypiu5r+P9YkKE6aTku7/c5QhXHWLnelImCz3E/XTTexyUFBiCujTMLxk5D/Z1YQDXLw==}
     engines: {node: '>=14.21.3'}
     cpu: [wasm32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-RLIc8iWHLRJLFeJcIufUNiyvTrQYVm2Am+jfPatfLwoUdJUc4c9OW+A0I8mwH3+5UuIB81y8l/ndAPXfx7uGOA==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-1E7H3kLyWWCzp1wepZfOVeQFD6+U5CJUaQTwUyr8yvJni1ew4G3rMeS2S5ohKQtc26sT1i3sMYffmQgBKnfqeQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-MM52ce1TmWadtbiIhaVXeMIVFz3TpXV3WWB0eOXJgfuiwHa9PI2j8kkG2R3C0vQXeXVMDbUaT+VLAYdnvY2S5w==}
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-j/fs4/JcCSy8kYGNH7NtmiIvN3vHHiloPMGp0e4xwVQllX2/jkeWSLAb+Pqv/b+rz4XwmaL+pbbq8yuomU3/og==}
     cpu: [ia32]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.7-commit.b7224c1':
-    resolution: {integrity: sha512-KIqywG2RaefGTpFmtUjNV1swCIy7OyBzm5jg7Yt+bfboYvKXl28kpPumZnKUe/XDm0ljVlTRQOqAYEMJXhdo2Q==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.7-commit.25f3c61':
+    resolution: {integrity: sha512-dHDpZfOdCdtZekAqWJ0yaOHKHrJMD5e9B3iq/JnMfS43wz2t4ci5lT5aeJggGsHDcxFRtsUdGzp235NMJ0NPKA==}
     cpu: [x64]
     os: [win32]
 
@@ -1007,8 +1007,8 @@ packages:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
-  electron-to-chromium@1.5.132:
-    resolution: {integrity: sha512-QgX9EBvWGmvSRa74zqfnG7+Eno0Ak0vftBll0Pt2/z5b3bEGYL6OUXLgKPtvx73dn3dvwrlyVkjPKRRlhLYTEg==}
+  electron-to-chromium@1.5.134:
+    resolution: {integrity: sha512-zSwzrLg3jNP3bwsLqWHmS5z2nIOQ5ngMnfMZOWWtXnqqQkPVyOipxK98w+1beLw1TB+EImPNcG8wVP/cLVs2Og==}
 
   enhanced-resolve@5.18.1:
     resolution: {integrity: sha512-ZSW3ma5GkcQBIpwZTSRAI8N71Uuwgs93IezB7mf7R60tC8ZbJideoDNKjHn2O9KIlx6rkGTTEk1xUCK2E1Y2Yg==}
@@ -1459,11 +1459,11 @@ packages:
     engines: {node: '>= 0.4'}
     hasBin: true
 
-  rolldown@1.0.0-beta.7-commit.b7224c1:
-    resolution: {integrity: sha512-+RK/ozBURAE8pGFE6IsSl3mk3Yc0FR+3JH5P0wsc8xYcz26/PL7oHmoQg+c5H6z0L6NKs28UTYt8Q0gePpCSQA==}
+  rolldown@1.0.0-beta.7-commit.25f3c61:
+    resolution: {integrity: sha512-FbNkKcPa6P3UmA4yLY5cMp9IMwKqy8qwiAeHbGmioqreUSVkJyFpYiXqLF0EnFX4kKD8FCrK54LYW/pnVmTULw==}
     hasBin: true
     peerDependencies:
-      '@oxc-project/runtime': 0.61.2
+      '@oxc-project/runtime': 0.62.0
     peerDependenciesMeta:
       '@oxc-project/runtime':
         optional: true
@@ -1611,8 +1611,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.99.0:
-    resolution: {integrity: sha512-//MpHjkKV7dhKheJ1lJuHkR6tv8ycfYy7YVzVhhIpwKuKCu5/Zty/vGpFi0fV2RRAWTYDuj6oKn4vYyLzRh55g==}
+  webpack@5.99.2:
+    resolution: {integrity: sha512-1LYyB3DIKS4k2JlBHKp+b63b1jp9Nn86wypihsZOeKove7kpRCAVqN8pIle0wbs6a0p4kxkMt01lbb6Y93CpRw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1809,7 +1809,7 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@oxc-project/types@0.61.2': {}
+  '@oxc-project/types@0.62.0': {}
 
   '@parcel/bundler-default@2.13.3(@parcel/core@2.13.3(@swc/helpers@0.5.15))':
     dependencies:
@@ -2401,42 +2401,42 @@ snapshots:
       '@parcel/utils': 2.13.3
       nullthrows: 1.1.1
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-darwin-x64@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.7-commit.25f3c61':
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.8
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.7-commit.b7224c1':
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.7-commit.25f3c61':
     optional: true
 
   '@swc/core-darwin-arm64@1.11.1':
@@ -2599,20 +2599,20 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)':
+  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)':
     dependencies:
-      webpack: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.0)
+      webpack: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.2)
 
-  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)':
+  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)':
     dependencies:
-      webpack: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.0)
+      webpack: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.2)
 
-  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)':
+  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)':
     dependencies:
-      webpack: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.0)
+      webpack: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.2)
 
   '@xtuc/ieee754@1.2.0': {}
 
@@ -2653,7 +2653,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001712
-      electron-to-chromium: 1.5.132
+      electron-to-chromium: 1.5.134
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -2747,7 +2747,7 @@ snapshots:
 
   dotenv@16.4.7: {}
 
-  electron-to-chromium@1.5.132: {}
+  electron-to-chromium@1.5.134: {}
 
   enhanced-resolve@5.18.1:
     dependencies:
@@ -3163,24 +3163,24 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  rolldown@1.0.0-beta.7-commit.b7224c1:
+  rolldown@1.0.0-beta.7-commit.25f3c61:
     dependencies:
-      '@oxc-project/types': 0.61.2
+      '@oxc-project/types': 0.62.0
       '@valibot/to-json-schema': 1.0.0(valibot@1.0.0)
       valibot: 1.0.0
     optionalDependencies:
-      '@rolldown/binding-darwin-arm64': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-darwin-x64': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-freebsd-x64': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.7-commit.b7224c1
-      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.7-commit.b7224c1
+      '@rolldown/binding-darwin-arm64': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-darwin-x64': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-freebsd-x64': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.7-commit.25f3c61
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.7-commit.25f3c61
     transitivePeerDependencies:
       - typescript
 
@@ -3232,14 +3232,14 @@ snapshots:
 
   term-size@2.2.1: {}
 
-  terser-webpack-plugin@5.3.14(esbuild@0.25.0)(webpack@5.99.0):
+  terser-webpack-plugin@5.3.14(esbuild@0.25.0)(webpack@5.99.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
+      webpack: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
     optionalDependencies:
       esbuild: 0.25.0
 
@@ -3279,12 +3279,12 @@ snapshots:
 
   weak-lru-cache@1.2.2: {}
 
-  webpack-cli@6.0.1(webpack@5.99.0):
+  webpack-cli@6.0.1(webpack@5.99.2):
     dependencies:
       '@discoveryjs/json-ext': 0.6.3
-      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)
-      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)
-      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.0)
+      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)
+      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)
+      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.2)
       colorette: 2.0.20
       commander: 12.1.0
       cross-spawn: 7.0.6
@@ -3293,7 +3293,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1)
+      webpack: 5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
 
   webpack-merge@6.0.1:
@@ -3304,7 +3304,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.99.0(esbuild@0.25.0)(webpack-cli@6.0.1):
+  webpack@5.99.2(esbuild@0.25.0)(webpack-cli@6.0.1):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -3326,11 +3326,11 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(esbuild@0.25.0)(webpack@5.99.0)
+      terser-webpack-plugin: 5.3.14(esbuild@0.25.0)(webpack@5.99.2)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack@5.99.0)
+      webpack-cli: 6.0.1(webpack@5.99.2)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
