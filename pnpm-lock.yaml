@@ -19,13 +19,13 @@ importers:
         version: 3.5.3
       rolldown:
         specifier: nightly
-        version: 1.0.0-beta.9-commit.273d50e
+        version: 1.0.0-beta.9-commit.0ec9e7d
       webpack:
         specifier: ^5.92.1
-        version: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
+        version: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
       webpack-cli:
         specifier: ^6.0.0
-        version: 6.0.1(webpack@5.99.8)
+        version: 6.0.1(webpack@5.99.9)
 
   packages/barrel-exports-optimization: {}
 
@@ -691,68 +691,68 @@ packages:
     peerDependencies:
       '@parcel/core': ^2.15.1
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-sQF3XRmJbAzszUj6AJEeaWbiy849W/XgabPg3IbxYnL43JHlUPh4pDwwK+fAyjqfWk/3un+TdKXtVlkk4w0iog==}
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-q9o+RHsT+5y6IJhpHMvoAPhgy7POrZNRqTCJliEXNA8l0aqG4COzt/W34SehrFE2XDfYzcNAQkg8Ik/8cU9aOQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-dwIqR+dMgVpv6nW+uKGBT40oarLeQuQZxVCJGXR/yLUOnEXEx2LofAoonTTB8E3uZ8bA1ZSMyiwsLkW5gysIeg==}
+  '@rolldown/binding-darwin-x64@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-0D3DnNpuFmz6O3yJDtEbbLVH0T1OU4WftRAURCY+swN2m3xYdNI5xTNpRDMcpNUPvbpez2e62hJOuZaojx8/+g==}
     cpu: [x64]
     os: [darwin]
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-aiXOyGeMW8/KeYfU0OiXZ6x2sDTG6hTCW30JsE3tN+sIv4sPPdl4d9t/RruvIn6VNSeMxC6enzfZU/MpNSNkhg==}
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-Ems2bYbQstAHGwz1EHWq2pIlcMI2Ucw/CHDWqbdi/M9UYcgb9WI9r2+rrTPa/++o1D+lrwqM44ezvHfBh4+SNg==}
     cpu: [x64]
     os: [freebsd]
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-WQ/HH1INKenEEZ58QvuNsT36z9egm6TzfRkVs8oRfSFPTkNQ6wo+VCkbXR3K/3+bnoNdnZf+8cGaPaF36+CZlw==}
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-yqYTVZSJtV3Hbq1L1EhZ+/1G/U4D+179tO2xxsULgurmCsMi8KIyfZNUgOvonnLt80koZx6mzhMHUcdGRdZYNg==}
     cpu: [arm]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-B3JWDQ/Ow1PUum07U2r5UTD7i7sB1g+gd9v+YxcHC8111p7RGogqqCmgQENwqFAARJsIYvhDTEhqIY//bMvdWA==}
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-cNl41sKLN0TAfCbtScMYt5DF/svibKp+8uQFn7or7bFIRl3II3F5xIUeQyVInWZAvfJFi40KadF2qKw7xkCSxg==}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-ka1go9nvCAXxafUmgz+gyVpBAH6aYCBEu+e1BrucncB7tjIDpS604tM1iyo/uoS0Yhqymln66xqnpWwbq02V+g==}
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-Jbkg3fI4Ml0B1mNjCrgpNEDGe+6wP/4BIGb5m8PCxUcXfA1W9UhdPk8cOZ3dtN/4LUFrfkqDBlUqjvfRKEZCAA==}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-ob8NUNYYz0P2YElSJLM7z54XUMT1Y0drlG2h8DAq6X6Fh7roCBr9Y++1KolsJTMaGYQLZVYDb2DRWx1GcA3ybQ==}
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-aIIdy82xo5o4HRP4nTURFhV4egXRjy5QRdUkJzlf6uJ96kLEfNK8wz6jjI907k5AKBc2kyMHcZCabiK0P7Sf2Q==}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-SGvkMdthXE6CC81jitUKoynHxp9YCixTm8XOpJYzPpiJll2cv14oLUAM3P3uH0A1R9PITnNnpdejkeOj5y/j3g==}
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-eCRmJsYssgnCI3AZbmuL1015mm7XMcaBJptYgb9t8+jVGS4DnxJf4lYLem12AznZL8ZCYfP507sQtlUStLnS4Q==}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-l4RES3Oer3MY4dK8jARtdF/29eRfzA9IKSzys4fZdBT6uJmi2An3JuHcdFUYwH0hCZyRtsjhqQia4lXpQO0oAw==}
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-Oak/y4Oea3xT3IZKvIgXlh2u+HKGSm0pDruuYenPA7+Ztqa4kP+1McQcHpR0w0YgG4P6AO3TpOQEB4lyYHFFZA==}
     engines: {node: '>=14.21.3'}
     cpu: [wasm32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-67yVfBel18o+YESusr4K2rKpELHdg6ED5U0KAlZIY0HO/rWjahASbr63w9PC2fOUwEMA4yZXyOXWQw7Bl2rHPg==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-l8ypAWu2XFkdedU9rFUbNFz9KhyVrlLi09affpYRpgHaJ35vGnimSFTNxzM1sRkkpGZrYWVeN82ivbZHQ8mAYg==}
     cpu: [arm64]
     os: [win32]
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-iFRrZFfBEyXl+WhygcvAiqRWymBjuIRRCDeV52L053A3CzpHc0fq4X9v6KF7E+tq5Q0fpQChS8IGk9InRxSLPg==}
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-V/n0uHjzjgVVm3qI7WFLAZF3KXaHZYwNCCskKtoa3Nw46yMHqlpP44IgrAsdaIhZyOXXDQXf+O/WTYtD8oQaeg==}
     cpu: [ia32]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-5I/kSOya+j/pgG3QzPhSL92/hFWE6qZ5XLgVamQEMxTUCs8BCXU6wtOrynJHgu23/Lh3fUCdtgo4BUN/KaFDkA==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-p8oTdLgKfMotY2a37sPqskU+ZQPZ47Va61QYBLtvRN54VANHjt3NoceAoReI7mocKdYgLup2U+pKn5eq/USKZg==}
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/pluginutils@1.0.0-beta.9-commit.273d50e':
-    resolution: {integrity: sha512-QOH6dLsibrXA7KWzZcybmRdotggY+CsOeSzBi8IbEdsIn67lVOtdBsQAF7gIXsokrp6CQwOc00KfzPrLF6fW3w==}
+  '@rolldown/pluginutils@1.0.0-beta.9-commit.0ec9e7d':
+    resolution: {integrity: sha512-hMrblfoHK3yTyv/Losh6ZLhAgFfYY99vbsDO5eqWZGPYL1U8DNR9CKIIReUsJ8h1Al8q8S6K1lJXyPmFlDxxgw==}
 
   '@swc/core-darwin-arm64@1.11.24':
     resolution: {integrity: sha512-dhtVj0PC1APOF4fl5qT2neGjRLgHAAYfiVP8poJelhzhB/318bO+QCFWAiimcDoyMgpCXOhTp757gnoJJrheWA==}
@@ -847,8 +847,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.15.19':
-    resolution: {integrity: sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==}
+  '@types/node@22.15.23':
+    resolution: {integrity: sha512-7Ec1zaFPF4RJ0eXu1YT/xgiebqwqoJz8rYPDi/O2BcZ++Wpt0Kq9cl0eg6NN6bYbPnR67ZLo7St5Q3UK0SnARw==}
 
   '@webassemblyjs/ast@1.14.1':
     resolution: {integrity: sha512-nuBEDgQfm1ccRp/8bCQrx1frohyufl4JlbMMZ4P1wpeOfDhF6FQkxZJ1b/e+PLwr6X1Nhw6OLme5usuBWYBvuQ==}
@@ -1375,8 +1375,8 @@ packages:
     engines: {node: '>= 0.4'}
     hasBin: true
 
-  rolldown@1.0.0-beta.9-commit.273d50e:
-    resolution: {integrity: sha512-pexCCTB9TOUdUJfMg6xGlLkIl32KE7/dNZTd4cZiHpU51hsn5lv8lpBmJLUCr5vPl4kmicrp4jZ5fojRKSSpGg==}
+  rolldown@1.0.0-beta.9-commit.0ec9e7d:
+    resolution: {integrity: sha512-+w7UpwoC7218rQQn7nyhr0fbkw2pnnxvQyY5akK8HVMxbYQC1t2cWccIrJFHvMjJHt4Fv2yUc65GWS9NUTudwQ==}
     hasBin: true
 
   safe-buffer@5.2.1:
@@ -1425,8 +1425,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tapable@2.2.1:
-    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
+  tapable@2.2.2:
+    resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
     engines: {node: '>=6'}
 
   term-size@2.2.1:
@@ -1449,8 +1449,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.39.2:
-    resolution: {integrity: sha512-yEPUmWve+VA78bI71BW70Dh0TuV4HHd+I5SHOAfS1+QBOmvmCiiffgjR8ryyEd3KIfvPGFqoADt8LdQ6XpXIvg==}
+  terser@5.40.0:
+    resolution: {integrity: sha512-cfeKl/jjwSR5ar7d0FGmave9hFGJT8obyo0z+CrQOylLDbk7X81nPU6vq9VORa5jU30SkDnT2FXjLbR8HLP+xA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1478,8 +1478,8 @@ packages:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
 
-  watchpack@2.4.2:
-    resolution: {integrity: sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==}
+  watchpack@2.4.4:
+    resolution: {integrity: sha512-c5EGNOiyxxV5qmTtAB7rbiXxi1ooX1pQKMLX/MIabJjRA0SJBQOjKF+KSVfHkr9U1cADPon0mRiVe/riyaiDUA==}
     engines: {node: '>=10.13.0'}
 
   weak-lru-cache@1.2.2:
@@ -1503,12 +1503,12 @@ packages:
     resolution: {integrity: sha512-hXXvrjtx2PLYx4qruKl+kyRSLc52V+cCvMxRjmKwoA+CBbbF5GfIBtR6kCvl0fYGqTUPKB+1ktVmTHqMOzgCBg==}
     engines: {node: '>=18.0.0'}
 
-  webpack-sources@3.2.3:
-    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
+  webpack-sources@3.3.0:
+    resolution: {integrity: sha512-77R0RDmJfj9dyv5p3bM5pOHa+X8/ZkO9c7kpDstigkC4nIDobadsfSGCwB4bKhMVxqAok8tajaoR8rirM7+VFQ==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.99.8:
-    resolution: {integrity: sha512-lQ3CPiSTpfOnrEGeXDwoq5hIGzSjmwD72GdfVzF7CQAI7t47rJG9eDWvcEkEn3CUQymAElVvDg3YNTlCYj+qUQ==}
+  webpack@5.99.9:
+    resolution: {integrity: sha512-brOPwM3JnmOa+7kd3NsmOUOwbDAj8FT9xDsG3IW0MgbN9yZV7Oi/s/+MNQ/EcSMqw7qfoRyXPoeEWT8zLVdVGg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2349,45 +2349,45 @@ snapshots:
     transitivePeerDependencies:
       - napi-wasm
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-darwin-x64@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.9-commit.0ec9e7d':
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.10
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.9-commit.273d50e':
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.9-commit.0ec9e7d':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-beta.9-commit.273d50e': {}
+  '@rolldown/pluginutils@1.0.0-beta.9-commit.0ec9e7d': {}
 
   '@swc/core-darwin-arm64@1.11.24':
     optional: true
@@ -2465,7 +2465,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.15.19':
+  '@types/node@22.15.23':
     dependencies:
       undici-types: 6.21.0
 
@@ -2545,20 +2545,20 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)':
+  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)':
     dependencies:
-      webpack: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.8)
+      webpack: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.9)
 
-  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)':
+  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)':
     dependencies:
-      webpack: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.8)
+      webpack: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.9)
 
-  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)':
+  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)':
     dependencies:
-      webpack: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.99.8)
+      webpack: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.99.9)
 
   '@xtuc/ieee754@1.2.0': {}
 
@@ -2655,7 +2655,7 @@ snapshots:
   enhanced-resolve@5.18.1:
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.2.1
+      tapable: 2.2.2
 
   envinfo@7.14.0: {}
 
@@ -2770,7 +2770,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.15.19
+      '@types/node': 22.15.23
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -2973,25 +2973,25 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  rolldown@1.0.0-beta.9-commit.273d50e:
+  rolldown@1.0.0-beta.9-commit.0ec9e7d:
     dependencies:
       '@oxc-project/runtime': 0.72.0
       '@oxc-project/types': 0.72.0
-      '@rolldown/pluginutils': 1.0.0-beta.9-commit.273d50e
+      '@rolldown/pluginutils': 1.0.0-beta.9-commit.0ec9e7d
       ansis: 4.0.0
     optionalDependencies:
-      '@rolldown/binding-darwin-arm64': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-darwin-x64': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-freebsd-x64': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.9-commit.273d50e
-      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.9-commit.273d50e
+      '@rolldown/binding-darwin-arm64': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-darwin-x64': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-freebsd-x64': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.9-commit.0ec9e7d
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.9-commit.0ec9e7d
 
   safe-buffer@5.2.1: {}
 
@@ -3035,22 +3035,22 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tapable@2.2.1: {}
+  tapable@2.2.2: {}
 
   term-size@2.2.1: {}
 
-  terser-webpack-plugin@5.3.14(esbuild@0.25.5)(webpack@5.99.8):
+  terser-webpack-plugin@5.3.14(esbuild@0.25.5)(webpack@5.99.9):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      terser: 5.39.2
-      webpack: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
+      terser: 5.40.0
+      webpack: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
     optionalDependencies:
       esbuild: 0.25.5
 
-  terser@5.39.2:
+  terser@5.40.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.14.1
@@ -3075,19 +3075,19 @@ snapshots:
 
   utility-types@3.11.0: {}
 
-  watchpack@2.4.2:
+  watchpack@2.4.4:
     dependencies:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
 
   weak-lru-cache@1.2.2: {}
 
-  webpack-cli@6.0.1(webpack@5.99.8):
+  webpack-cli@6.0.1(webpack@5.99.9):
     dependencies:
       '@discoveryjs/json-ext': 0.6.3
-      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)
-      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)
-      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.8)
+      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)
+      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)
+      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.9)
       colorette: 2.0.20
       commander: 12.1.0
       cross-spawn: 7.0.6
@@ -3096,7 +3096,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1)
+      webpack: 5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
 
   webpack-merge@6.0.1:
@@ -3105,9 +3105,9 @@ snapshots:
       flat: 5.0.2
       wildcard: 2.0.1
 
-  webpack-sources@3.2.3: {}
+  webpack-sources@3.3.0: {}
 
-  webpack@5.99.8(esbuild@0.25.5)(webpack-cli@6.0.1):
+  webpack@5.99.9(esbuild@0.25.5)(webpack-cli@6.0.1):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -3129,12 +3129,12 @@ snapshots:
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 4.3.2
-      tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(esbuild@0.25.5)(webpack@5.99.8)
-      watchpack: 2.4.2
-      webpack-sources: 3.2.3
+      tapable: 2.2.2
+      terser-webpack-plugin: 5.3.14(esbuild@0.25.5)(webpack@5.99.9)
+      watchpack: 2.4.4
+      webpack-sources: 3.3.0
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack@5.99.8)
+      webpack-cli: 6.0.1(webpack@5.99.9)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
