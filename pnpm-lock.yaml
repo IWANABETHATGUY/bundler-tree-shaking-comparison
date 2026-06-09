@@ -16,7 +16,7 @@ importers:
         version: 2.15.4(@swc/helpers@0.5.17)
       prettier:
         specifier: ^3.3.3
-        version: 3.5.3
+        version: 3.8.4
       rolldown:
         specifier: nightly
         version: 1.0.0-beta.13-commit.024b632
@@ -1357,8 +1357,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2979,7 +2979,7 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  prettier@3.5.3: {}
+  prettier@3.8.4: {}
 
   randombytes@2.1.0:
     dependencies:
