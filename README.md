@@ -354,7 +354,7 @@ exports.bar = b;
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | failed  |
-| webpack  | failed  |
+| webpack  | success |
 | parcel   | success |
 | rolldown | failed  |
 
@@ -385,7 +385,7 @@ export const b = 1000;
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | failed  |
-| webpack  | failed  |
+| webpack  | success |
 | parcel   | success |
 | rolldown | failed  |
 
