@@ -4,6 +4,11 @@
 > Due to the code elimination implementation, some bundlers need pass the processed code to `minifier` (like `webpack`, `parcel`) to apply the elimination,
 > We consider the result successful if the target declaration/function is eliminated after being passed into the minifier.
 
+> [!Note]
+> The status tables below are generated automatically by `scripts/update-readme.mjs`
+> (run daily via GitHub Actions). Edit the prose freely, but leave the
+> `<!-- status:<id>:start/end -->` markers in place — their contents are overwritten.
+
 ## basic
 
 ```javascript
@@ -22,12 +27,16 @@ export function b() {}
 
 **Actual**
 
+<!-- status:basic:start -->
+
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | success |
 | webpack  | success |
 | parcel   | success |
 | rolldown | success |
+
+<!-- status:basic:end -->
 
 ## basic with inner module ref
 
@@ -55,12 +64,17 @@ export const b = 2;
 1. `bar` in **lib.js** should be eliminated, `b` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:basic-with-inner-ref:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | success |
-| webpack | success |
-| parcel | success |
+| esbuild  | success |
+| webpack  | success |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:basic-with-inner-ref:end -->
 
 ## barrel exports optimization
 
@@ -83,12 +97,17 @@ export const bar = 100;
 2. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:barrel-exports-optimization:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | success |
-| webpack | success |
-| parcel | success |
+| esbuild  | success |
+| webpack  | success |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:barrel-exports-optimization:end -->
 
 ## Nested barrel exports optimization
 
@@ -115,12 +134,17 @@ export const c = 100;
 3. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:barrel-exports-optimization-with-namespace-ref:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |
-| webpack | success |
-| parcel | failed |
+| esbuild  | failed  |
+| webpack  | success |
+| parcel   | failed  |
 | rolldown | success |
+
+<!-- status:barrel-exports-optimization-with-namespace-ref:end -->
 
 ## promise then namespace
 
@@ -148,12 +172,17 @@ export const c = 100;
 3. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:promise-then-namespace:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |
-| webpack | failed |
-| parcel | success |
+| esbuild  | failed  |
+| webpack  | failed  |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:promise-then-namespace:end -->
 
 ## promise then destruct
 
@@ -181,12 +210,17 @@ export const c = 100;
 3. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:promise-then-destruct:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |
-| webpack | failed |
-| parcel | success |
+| esbuild  | failed  |
+| webpack  | failed  |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:promise-then-destruct:end -->
 
 ## await dynamic import namespace
 
@@ -212,12 +246,17 @@ export const c = 100;
 2. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:dynamic-import-await-namespace:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |
-| webpack | failed |
-| parcel | success |
+| esbuild  | failed  |
+| webpack  | failed  |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:dynamic-import-await-namespace:end -->
 
 ## await dynamic import destruct
 
@@ -243,12 +282,17 @@ export const c = 100;
 2. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:dynamic-import-await-destruct:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |
-| webpack | success |
-| parcel | success |
+| esbuild  | failed  |
+| webpack  | success |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:dynamic-import-await-destruct:end -->
 
 ## Interop esm <- commonjs
 
@@ -271,12 +315,17 @@ exports.bar = b;
 1. `a` in **lib.js** should be eliminated
 
 **Actual**
-| Title | Status |
+
+<!-- status:interop-esm-commonjs:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |  
-| webpack | success |  
-| parcel | success |  
-| rolldown | failed |
+| esbuild  | failed  |
+| webpack  | success |
+| parcel   | success |
+| rolldown | failed  |
+
+<!-- status:interop-esm-commonjs:end -->
 
 ## commonjs <- commonjs
 
@@ -299,12 +348,17 @@ exports.bar = b;
 1. `a` in **lib.js** should be eliminated
 
 **Actual**
-| Title | Status |
+
+<!-- status:interop-commonjs-commonjs:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |  
-| webpack | failed |  
-| parcel | success |  
-| rolldown | failed |
+| esbuild  | failed  |
+| webpack  | failed  |
+| parcel   | success |
+| rolldown | failed  |
+
+<!-- status:interop-commonjs-commonjs:end -->
 
 ## Interop commonjs <- esm
 
@@ -325,12 +379,17 @@ export const b = 1000;
 1. `b` in **lib.js** should be eliminated
 
 **Actual**
-| Title | Status |
+
+<!-- status:interop-commonjs-esm:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | failed |  
-| webpack | failed |  
-| parcel | success |  
-| rolldown | failed |
+| esbuild  | failed  |
+| webpack  | failed  |
+| parcel   | success |
+| rolldown | failed  |
+
+<!-- status:interop-commonjs-esm:end -->
 
 ## Side effects
 
@@ -366,9 +425,58 @@ function test() {}
 3. `bar` in **a.js** should be eliminated
 
 **Actual**
-| Title | Status |  
+
+<!-- status:side-effects:start -->
+
+| Title    | Status  |
 | -------- | ------- |
-| esbuild | success |
-| webpack | success |
-| parcel | success |
+| esbuild  | success |
+| webpack  | success |
+| parcel   | success |
 | rolldown | success |
+
+<!-- status:side-effects:end -->
+
+## Side effects pure annotation
+
+```js
+// index.js
+import { foo, bar } from "./lib.js";
+console.log(foo);
+
+// lib.js
+export * from "./a.js";
+export * from "./b.js";
+
+// a.js
+export const foo = 100;
+export const bar = 100;
+
+// b.js
+export const c = 100;
+
+function test() {
+  console.log(`c: `, c);
+}
+
+/* @__PURE__*/ test();
+```
+
+**Expected**
+
+1. **lib.js** should be removed
+2. **b.js** should be removed (its only side effect is a `/* @__PURE__ */`-annotated call)
+3. `bar` in **a.js** should be eliminated
+
+**Actual**
+
+<!-- status:side-effects-pure-annotation:start -->
+
+| Title    | Status  |
+| -------- | ------- |
+| esbuild  | success |
+| webpack  | success |
+| parcel   | success |
+| rolldown | success |
+
+<!-- status:side-effects-pure-annotation:end -->

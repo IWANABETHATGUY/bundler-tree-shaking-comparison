@@ -1,5 +1,5 @@
 
 // b.js
-export const c = 100;
+export const c = "__SHAKE__promise_then_destruct__c__";
 
 

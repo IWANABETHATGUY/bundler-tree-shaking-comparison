@@ -20,6 +20,9 @@ importers:
       rolldown:
         specifier: nightly
         version: 1.0.0-beta.13-commit.024b632
+      terser:
+        specifier: ^5.48.0
+        version: 5.48.0
       webpack:
         specifier: ^5.92.1
         version: 5.101.3(esbuild@0.28.1)(webpack-cli@6.0.1)
@@ -1467,8 +1470,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.43.1:
-    resolution: {integrity: sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==}
+  terser@5.48.0:
+    resolution: {integrity: sha512-J/9An6vs9Us6wKRriSFXBWdRZapREHqFzdNUKk0pmu804EMR6dr6winwo7e5JDxN4xahxQsuysyYFwlwj4XN/Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3079,12 +3082,12 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      terser: 5.43.1
+      terser: 5.48.0
       webpack: 5.101.3(esbuild@0.28.1)(webpack-cli@6.0.1)
     optionalDependencies:
       esbuild: 0.28.1
 
-  terser@5.43.1:
+  terser@5.48.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.15.0

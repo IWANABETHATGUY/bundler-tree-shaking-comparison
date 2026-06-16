@@ -1,5 +1,5 @@
 
 // b.js
-export const c = 100;
+export const c = "__SHAKE__promise_then_namespace__c__";
 
 

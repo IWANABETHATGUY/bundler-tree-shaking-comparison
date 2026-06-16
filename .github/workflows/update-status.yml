@@ -1,0 +1,50 @@
+name: Update tree-shaking status
+
+on:
+  schedule:
+    # Daily at 06:00 UTC. Picks up new rolldown nightly / dependency changes
+    # once the lockfile is refreshed by renovate.
+    - cron: "0 6 * * *"
+  # Manual trigger so the workflow can be tested / forced from the Actions tab.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-status
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4 # version is read from package.json "packageManager"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build all bundler outputs
+        run: pnpm run -r build
+
+      - name: Regenerate status tables
+        run: node scripts/update-readme.mjs
+
+      - name: Format
+        run: pnpm run format
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update tree-shaking status [skip ci]"
+          file_pattern: README.md
+          branch: main
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com

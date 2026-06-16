@@ -1,4 +1,4 @@
 // a.js
 export const foo = 100;
-export const bar = 100;
+export const bar = "__SHAKE__promise_then_namespace__bar__";
 

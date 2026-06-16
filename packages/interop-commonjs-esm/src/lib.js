@@ -1,6 +1,6 @@
 // lib.js
 export const a = 3;
-export const b = 1000;
+export const b = "__SHAKE__interop_commonjs_esm__b__";
 
 
 
