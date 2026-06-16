@@ -30,7 +30,12 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install --no-frozen-lockfile
+
+      # Always test the newest published rolldown. `pnpm install` caches the
+      # resolution of the "latest" dist-tag, so force a re-resolve each run.
+      - name: Update rolldown to latest
+        run: pnpm update rolldown --latest
 
       - name: Build all bundler outputs
         run: pnpm run -r build
@@ -44,7 +49,9 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update tree-shaking status [skip ci]"
-          file_pattern: README.md
+          # Also commit the lockfile so the repo records which rolldown version
+          # produced the current status.
+          file_pattern: README.md pnpm-lock.yaml
           branch: main
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com

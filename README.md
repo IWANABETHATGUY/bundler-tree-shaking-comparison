@@ -323,7 +323,7 @@ exports.bar = b;
 | esbuild  | failed  |
 | webpack  | success |
 | parcel   | success |
-| rolldown | failed  |
+| rolldown | success |
 
 <!-- status:interop-esm-commonjs:end -->
 
