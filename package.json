@@ -6,7 +6,7 @@
 		"rolldown": "nightly",
 		"terser": "^5.48.0",
 		"webpack": "^5.92.1",
-		"webpack-cli": "^6.0.0"
+		"webpack-cli": "^7.0.0"
 	},
 	"scripts": {
 		"build": "pnpm run -r build",
