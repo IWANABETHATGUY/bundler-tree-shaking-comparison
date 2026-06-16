@@ -4,5 +4,12 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
-  }
+  },
+  "packageRules": [
+    {
+      "description": "Do not auto-bump pnpm. pnpm 11 enables a minimumReleaseAge supply-chain policy by default that rejects freshly-published packages and breaks `pnpm install` in this repo (which tracks rolldown@latest and pulls fresh transitive deps). Bump pnpm manually after configuring that policy.",
+      "matchDepNames": ["pnpm"],
+      "enabled": false
+    }
+  ]
 }
