@@ -178,7 +178,7 @@ export const c = 100;
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | failed  |
-| webpack  | failed  |
+| webpack  | success |
 | parcel   | success |
 | rolldown | success |
 
@@ -216,7 +216,7 @@ export const c = 100;
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | failed  |
-| webpack  | failed  |
+| webpack  | success |
 | parcel   | success |
 | rolldown | success |
 
@@ -252,7 +252,7 @@ export const c = 100;
 | Title    | Status  |
 | -------- | ------- |
 | esbuild  | failed  |
-| webpack  | failed  |
+| webpack  | success |
 | parcel   | success |
 | rolldown | success |
 
