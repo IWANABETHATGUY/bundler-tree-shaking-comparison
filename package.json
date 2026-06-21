@@ -10,6 +10,7 @@
 	},
 	"scripts": {
 		"build": "pnpm run -r build",
+		"clean": "node scripts/clean.mjs",
 		"format": "prettier --write *.md",
 		"status": "node scripts/update-readme.mjs --build",
 		"status:check": "node scripts/update-readme.mjs --check"
