@@ -25,10 +25,10 @@ importers:
         version: 5.48.0
       webpack:
         specifier: ^5.107.2
-        version: 5.108.3(esbuild@0.28.1)(webpack-cli@7.1.0)
+        version: 5.108.3(esbuild@0.28.1)(webpack-cli@7.2.2)
       webpack-cli:
         specifier: ^7.0.3
-        version: 7.1.0(json5@2.2.3)(webpack@5.108.3)
+        version: 7.2.2(json5@2.2.3)(webpack@5.108.3)
 
   packages/barrel-exports-optimization: {}
 
@@ -1531,8 +1531,8 @@ packages:
   weak-lru-cache@1.2.2:
     resolution: {integrity: sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==}
 
-  webpack-cli@7.1.0:
-    resolution: {integrity: sha512-pSJ5p5PkXRD88sfCq5Wo+coc42QykwRu5Md0DyESj0rT6PPPA2wTNabpHPKgqH8EMkfTDo3IWx3iiNXMu8XDBQ==}
+  webpack-cli@7.2.2:
+    resolution: {integrity: sha512-lD0pALneslq8FfV+rwvm1BMW0AFAJrHHhNupAGN4asYjMvqrtRsenU4iKpiBo09gS4ntMxKGUxl9jhTEzVt0oA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -1541,7 +1541,7 @@ packages:
       toml: ^3.0.0 || ^4.0.0
       webpack: ^5.101.0
       webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
-      webpack-dev-server: ^5.0.0
+      webpack-dev-server: ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
       js-yaml:
         optional: true
@@ -2901,7 +2901,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.48.0
-      webpack: 5.108.3(esbuild@0.28.1)(webpack-cli@7.1.0)
+      webpack: 5.108.3(esbuild@0.28.1)(webpack-cli@7.2.2)
     optionalDependencies:
       esbuild: 0.28.1
 
@@ -3104,7 +3104,7 @@ snapshots:
 
   weak-lru-cache@1.2.2: {}
 
-  webpack-cli@7.1.0(json5@2.2.3)(webpack@5.108.3):
+  webpack-cli@7.2.2(json5@2.2.3)(webpack@5.108.3):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
@@ -3113,7 +3113,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.108.3(esbuild@0.28.1)(webpack-cli@7.1.0)
+      webpack: 5.108.3(esbuild@0.28.1)(webpack-cli@7.2.2)
       webpack-merge: 6.0.1
     optionalDependencies:
       json5: 2.2.3
@@ -3126,7 +3126,7 @@ snapshots:
 
   webpack-sources@3.5.0: {}
 
-  webpack@5.108.3(esbuild@0.28.1)(webpack-cli@7.1.0):
+  webpack@5.108.3(esbuild@0.28.1)(webpack-cli@7.2.2):
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -3151,7 +3151,7 @@ snapshots:
       watchpack: 2.5.2
       webpack-sources: 3.5.0
     optionalDependencies:
-      webpack-cli: 7.1.0(json5@2.2.3)(webpack@5.108.3)
+      webpack-cli: 7.2.2(json5@2.2.3)(webpack@5.108.3)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@swc/core'
